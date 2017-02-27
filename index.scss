@@ -1,0 +1,31 @@
+input {
+  color : red;
+}
+
+
+.input_elements {
+  margin-top: 2em;
+  .form-control {
+    text-align: center;
+  }
+}
+
+.panel {
+  .panel-body {
+    border: 1px solid #ccc;
+  }
+}
+.last-child{
+  border-bottom:none;
+}
+.data_container {
+  float: left;
+  .text_tag {
+    font-size: 2em;
+  }
+  .image_tag {
+    height: 5em;
+  }
+  .col-6  {width: 50%;
+  }
+}
